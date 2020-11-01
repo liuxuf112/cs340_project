@@ -1,0 +1,148 @@
+.header {
+    background-color: #DEB887;
+    color: #ffffff;
+    height: 70px;
+
+}
+
+.header-logo{
+    font-size: 30px;
+    padding: 20px;
+    float: left;
+}
+
+
+
+.body {
+    line-height: 1.9;
+    font-family: var(--font-default);
+    position: relative;
+}
+
+a:hover{
+    color: gray;
+}
+
+#container {
+    margin-top: 40px;
+    background-color: inherit;
+    padding: 0 0px;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+#sideMenu {
+    width: 260px;
+    /* height: 400px; */
+    /* background-color: green; */
+    background-color: inherit;
+    position: absolute;
+}
+
+
+
+#sideMenu a {
+    display: block;
+    background-color: inherit;
+    font-size: 13px;
+    border-bottom: 1px solid white;
+    margin: 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    line-height: 1.3;
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+#sideMenu a:hover{
+  background-color: #DEB887;
+}
+
+#sideMenu h2 {
+    background-color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: bold;
+}
+
+#sideMenu.left a{
+    text-decoration: none;
+
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    /*color: gray;*/
+    font-family: default;
+    background-color: rgb(240, 238, 238);
+}
+
+
+
+
+#main_page_content {
+    width: 1200px;
+    position: fixed;
+    top: 100px;
+    left:350px;
+    background-color: inherit;
+    
+}
+
+
+#booklist{
+    padding: 30px 30px
+}
+
+.book{
+    width:200px;
+    height:250px;
+    margin: 30px 35px;
+    float: left;
+}
+
+.bookimg img{
+    width:145px;
+    height: 200px;
+}
+
+.bookintro{
+    text-align: left;
+}
+
+
+
+
+#catgorylist{
+    padding: 30px 30px
+}
+
+.catgory{
+    width:250px;
+    height:250px;
+    margin: 30px 35px;
+    float: left;
+}
+
+.catgoryimg img{
+    width:250px;
+    height: 250px;
+}
+
+.catgoryintro{
+    text-align: center;
+}
